@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="box"></div>
+    <label for="color-picker">Please Enter a Color</label>
+    <input id="color-picker" list="colors">
+    <datalist id="colors">
+      <option value="AliceBlue">
+      <option value="AntiqueWhite">
+      <option value="Aqua">
+      <option value="Aquamarine">
+      <option value="Azure">
+      <option value="Beige">
+      <option value="Bisque">
+      <option value="Black">
+      <option value="BlanchedAlmond">
+      <option value="Blue">
+      <option value="BlueViolet">
+      <option value="Brown">
+      <option value="BurlyWood">
+      <option value="CadetBlue">
+      <option value="Chartreuse">
+      <option value="Chocolate">
+      <option value="Coral">
+      <option value="CornflowerBlue">
+      <option value="Cornsilk">
+      <option value="Crimson">
+      <option value="Cyan">
+      <option value="DarkBlue">
+      <option value="DarkCyan">
+      <option value="DarkGoldenRod">
+      <option value="DarkGray">
+      <option value="DarkGrey">
+      <option value="DarkGreen">
+      <option value="DarkKhaki">
+      <option value="DarkMagenta">
+      <option value="DarkOliveGreen">
+      <option value="DarkOrange">
+      <option value="DarkOrchid">
+      <option value="DarkRed">
+      <option value="DarkSalmon">
+      <option value="DarkSeaGreen">
+      <option value="DarkSlateBlue">
+      <option value="DarkSlateGray">
+      <option value="DarkSlateGrey">
+      <option value="DarkTurquoise">
+      <option value="DarkViolet">
+      <option value="DeepPink">
+      <option value="DeepSkyBlue">
+      <option value="DimGray">
+      <option value="DimGrey">
+      <option value="DodgerBlue">
+      <option value="FireBrick">
+      <option value="FloralWhite">
+      <option value="ForestGreen">
+      <option value="Fuchsia">
+      <option value="Gainsboro">
+      <option value="GhostWhite">
+      <option value="Gold">
+      <option value="GoldenRod">
+      <option value="Gray">
+      <option value="Grey">
+      <option value="Green">
+      <option value="GreenYellow">
+      <option value="HoneyDew">
+      <option value="HotPink">
+      <option value="IndianRed">
+      <option value="Indigo">
+      <option value="Ivory">
+      <option value="Khaki">
+      <option value="Lavender">
+      <option value="LavenderBlush">
+      <option value="LawnGreen">
+      <option value="LemonChiffon">
+      <option value="LightBlue">
+      <option value="LightCoral">
+      <option value="LightCyan">
+      <option value="LightGoldenRodYellow">
+      <option value="LightGray">
+      <option value="LightGrey">
+      <option value="LightGreen">
+      <option value="LightPink">
+      <option value="LightSalmon">
+      <option value="LightSeaGreen">
+      <option value="LightSkyBlue">
+      <option value="LightSlateGray">
+      <option value="LightSlateGrey">
+      <option value="LightSteelBlue">
+      <option value="LightYellow">
+      <option value="Lime">
+      <option value="LimeGreen">
+      <option value="Linen">
+      <option value="Magenta">
+      <option value="Maroon">
+      <option value="MediumAquaMarine">
+      <option value="MediumBlue">
+      <option value="MediumOrchid">
+      <option value="MediumPurple">
+      <option value="MediumSeaGreen">
+      <option value="MediumSlateBlue">
+      <option value="MediumSpringGreen">
+      <option value="MediumTurquoise">
+      <option value="MediumVioletRed">
+      <option value="MidnightBlue">
+      <option value="MintCream">
+      <option value="MistyRose">
+      <option value="Moccasin">
+      <option value="NavajoWhite">
+      <option value="Navy">
+      <option value="OldLace">
+      <option value="Olive">
+      <option value="OliveDrab">
+      <option value="Orange">
+      <option value="OrangeRed">
+      <option value="Orchid">
+      <option value="PaleGoldenRod">
+      <option value="PaleGreen">
+      <option value="PaleTurquoise">
+      <option value="PaleVioletRed">
+      <option value="PapayaWhip">
+      <option value="PeachPuff">
+      <option value="Peru">
+      <option value="Pink">
+      <option value="Plum">
+      <option value="PowderBlue">
+      <option value="Purple">
+      <option value="RebeccaPurple">
+      <option value="Red">
+      <option value="RosyBrown">
+      <option value="RoyalBlue">
+      <option value="SaddleBrown">
+      <option value="Salmon">
+      <option value="SandyBrown">
+      <option value="SeaGreen">
+      <option value="SeaShell">
+      <option value="Sienna">
+      <option value="Silver">
+      <option value="SkyBlue">
+      <option value="SlateBlue">
+      <option value="SlateGray">
+      <option value="SlateGrey">
+      <option value="Snow">
+      <option value="SpringGreen">
+      <option value="SteelBlue">
+      <option value="Tan">
+      <option value="Teal">
+      <option value="Thistle">
+      <option value="Tomato">
+      <option value="Turquoise">
+      <option value="Violet">
+      <option value="Wheat">
+      <option value="White">
+      <option value="WhiteSmoke">
+      <option value="Yellow">
+      <option value="YellowGreen">
+    </datalist>
+  </header>
+
+  <div id="boxes">
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+  </div>
+
+</body>
+
+</html>

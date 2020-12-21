@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body, html, #boxes {
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #d2d2d2;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  float: left;
+  height: 20%;
+  border: 1px solid #d2d2d2;
+}
